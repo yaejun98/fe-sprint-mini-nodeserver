@@ -1,4 +1,4 @@
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 * {
   box-sizing: border-box;
@@ -91,6 +91,11 @@ pre {
   font-size: 14px;
   border: 1px solid var(--gray-600);
   border-radius: 2px;
+  height: auto;
+  max-height: 200px;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 button {
